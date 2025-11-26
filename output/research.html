@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>Pitchayut - Research</title>
+    <meta name="description" content="a poole site" />
+    <meta name="keywords" content="poole" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Linux Libertine'; /* normal */
+            src: url('/static/fonts/LinLibertine_R.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* italic */
+            src: url('/static/fonts/LinLibertine_RI.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* bold */
+            src: url('/static/fonts/LinLibertine_RB.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* bold */
+            src: url('/static/fonts/LinLibertine_RBI.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+        body {
+            font-family: Linux Libertine;
+            width: 800px;
+            margin: 1em auto;
+            color: #2e3436;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        ul li{
+            margin-bottom: 10px;
+        }
+        ol li{
+            margin-bottom: 10px;
+        }
+        span#paper-header{
+            font-size: 1.17em;
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        span#notes-header{
+            font-size: 1.0em;
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        div#problem-box {
+            background-color: #ffffff;
+            border: 2px solid #800000;
+            padding: 15px 15px 15px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        div#box {
+        }
+        div#header, div#menu, div#content, div#footer {
+            padding: 1em;
+        }
+        div#menu {
+            background-color: #dddddd;
+            padding: 0.6em 0 0.6em 0;
+        }
+        #menu span {
+            font-weight: bold;
+            padding: 0.6em;
+        }
+        #menu span.current {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+        #menu a {
+            color: #000000;
+            text-decoration: none;
+        }
+        #menu span:hover {
+            background-color: #eeeeee;
+        }
+        div#footer {
+            color: gray;
+            text-align: center;
+            font-size: small;
+        }
+        div#footer a {
+            color: gray;
+            text-decoration: none;
+        }
+        pre {
+            border: dotted black 1px;
+            background: #eeeeec;
+            font-size: small;
+            padding: 1em;
+        }
+        a:hover{
+            text-shadow: 0px 0px 4px rgba(0,0,255,0.1)
+        }
+        a:visited:hover{
+            text-shadow: 0px 0px 4px rgba(128,0,128,0.1)
+        }
+        a.hash-link {
+            padding-left: 7px;
+        }
+        a.hash-link:link,
+        a.hash-link:visited {
+            opacity: 10%;
+        }
+        a.hash-link:hover,
+        a.hash-link:active {
+            opacity: 100%;
+            text-decoration: none;
+        }
+        details > summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        details > summary:hover {
+            text-shadow: 0px 0px 4px rgba(0,0,0,0.1)
+        }
+        [open]::details-content{
+            border: 1.5px solid #800000;
+            padding: 12px 12px 12px 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    <div id="header">
+         <h1>Pitchayut Saengrungkongka</h1>
+    </div>
+    <div id="menu">
+    <span class=""><a href="/index.html">Home</a></span>
+<span class="current"><a href="/research.html">Research</a></span>
+<span class=""><a href="/problems.html">Problems</a></span>
+<span class=""><a href="/notes.html">Notes</a></span>
+    </div>
+    <div id="content"><h1><a id="research"></a>Research<a href="#research" class="hash-link"><i class="fa fa-link"></i></a></h1>
+<p><a id="improved_bounds_on_rainbow_(k)-partite_matching"></a><span id=paper-header>Improved Bounds on Rainbow \(k\)-partite Matching<a href="#improved_bounds_on_rainbow_(k)-partite_matching" class="hash-link"><i class="fa fa-link"></i></a></span></p>
+<p>Research conducted through <a href="https://sites.google.com/view/gallian-reu/home">Duluth REU program</a> in 2025.</p>
+<details>
+    <summary>Abstract</summary>
+    Let \(n\), \(s\), and \(k\) be positive integers. We say that a sequence \(f_1, \dots,f_s\) of nonnegative integers is <i>satisfying</i> if for any collection of \(s\) families \(\mathcal F_1,\dots,\mathcal F_s\subseteq [n]^k\) such that \(|\mathcal F_i|=f_i\) for all \(i\), there exists a rainbow matching, i.e., a list of pairwise disjoint tuples  \(F_1\in\mathcal F_1\), \(\dots\), \(F_s\in\mathcal F_s\). We investigate the question, posed by Kupavskii  and Popova, of determining the smallest \(c=c(n,s,k)\) such that the arithmetic progression  \(c\), \(n^{k-1}+c\), \(2n^{k-1}+c\), \(\dots\), \((s-1)n^{k-1}+c\) is satisfying. We prove that the sequence is satisfying for \(c=\Omega_k(\max(s^2n^{k-2}, sn^{k-3/2}\sqrt{\log s}))\), improving the previous result by Kupavskii and Popova. We also study satisfying sequences for \(k=2\) using the polynomial method, extending the previous result by Kupavskii and Popova  to when \(n\) is not prime.
+</details>
+<p>(<a href="https://arxiv.org/abs/2508.07331">arXiv</a>)</p>
+<hr>
+<p><a id="gluing_genus_1_and_genus_2_curves_along_(ell)-torsion"></a><span id=paper-header>Gluing Genus 1 and Genus 2 Curves Along \(\ell\)-torsion<a href="#gluing_genus_1_and_genus_2_curves_along_(ell)-torsion" class="hash-link"><i class="fa fa-link"></i></a></span><br>(with Noah Walsh)
+<br></p>
+<p>in <i>LMFDB, Computation, and Number Theory (LuCaNT 2025)</i>, July 7-11, 2025.</p>
+<p>Research conducted through the MIT Math Department's 
+<a href="https://math.mit.edu/research/undergraduate/spur/index.html">SPUR program</a>.
+My mentors were Sam Schiavone and Edgar Costa.
+I presented this paper in LuCaNT 2025.</p>
+<details>
+    <summary>Abstract</summary>
+    Let \(Y\) be a genus \(2\) curve over \(\mathbb Q\). We provide a method to systematically search for possible candidates of a prime \(\ell\geq 3\) and a genus \(1\) curve \(X\) for which there exists a genus \(3\) curve \(Z\) over \(\mathbb Q\) whose Jacobian is, up to quadratic twist, \((\ell, \ell, \ell)\)-isogenous to the product of Jacobians of \(X\) and \(Y\), building on the work by Hanselman, Schiavone, and Sijsling for \(\ell=2\). We find several such pairs \((X,Y)\) for prime \(\ell\) up to \(13\). We also improve their numerical gluing algorithm, allowing us to successfully glue genus \(1\) and genus \(2\) curves along their \(13\)-torsion.
+</details>
+<p>(<a href="https://arxiv.org/abs/2502.09753">arXiv</a>)
+(<a href="https://lucant.org/">Conference</a>)
+(<a href="https://app.icerm.brown.edu/assets/515/9289/9289_5350_Saengrungkongka_071020251600_Slides.pdf">Slides</a>)
+(<a href="https://icerm.brown.edu/video_archive/4213">Recording</a>)</p>
+<hr>
+
+<p><a id="complexity_of_2d_snake_cube_puzzles"></a><span id=paper-header>Complexity of 2D Snake Cube Puzzles<a href="#complexity_of_2d_snake_cube_puzzles" class="hash-link"><i class="fa fa-link"></i></a></span><br>(with Nithid Anchaleenukoon, Alex Dang, Erik D. Demaine, and Kaylee Ji)
+<br></p>
+<p>in <i>Proceedings of the 36th Canadian Conference on Computational Geometry (CCCG 2024)</i>, July 17-19, 2024.</p>
+<p>Research conducted during open problem sessions in <a href="https://courses.csail.mit.edu/6.5440/fall23/">MIT 6.5440</a> (Algorithmic Lower Bounds).</p>
+<details>
+    <summary>Abstract</summary>
+    Given a chain of \(HW\) cubes where each cube is marked "turn \(90^\circ\)" or "go straight", when can it fold into a \(1 \times H \times W\) rectangular box? We prove several variants of this (still) open problem NP-hard:
+    (1) allowing some cubes to be wildcard (can turn or go straight);
+    (2) allowing a larger box with empty spaces (simplifying a proof from CCCG 2022);
+    (3) growing the box (and the number of cubes) to \(2 \times H \times W\) (improving a prior 3D result from height \(8\) to \(2\));
+    (4) with hexagonal prisms rather than cubes, each specified as going straight,
+  turning \(60^\circ\), or turning \(120^\circ\); and
+    (5) allowing the cubes to be encoded implicitly to compress exponentially large repetitions.
+</details>
+<p>(<a href="https://arxiv.org/abs/2407.10323">arXiv</a>)
+(<a href="https://brocku.ca/mathematics-science/canadian-conference-on-computational-geometry-2024/">Conference</a>)</p>
+<hr></div>
+    </div>
+    <div id="footer">
+        Pitchayut Saengrungkongka
+        &middot;
+        psaeng [at] mit [dot] edu
+    </div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>Pitchayut - Notes</title>
+    <meta name="description" content="a poole site" />
+    <meta name="keywords" content="poole" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Linux Libertine'; /* normal */
+            src: url('/static/fonts/LinLibertine_R.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* italic */
+            src: url('/static/fonts/LinLibertine_RI.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* bold */
+            src: url('/static/fonts/LinLibertine_RB.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Linux Libertine'; /* bold */
+            src: url('/static/fonts/LinLibertine_RBI.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+        body {
+            font-family: Linux Libertine;
+            width: 800px;
+            margin: 1em auto;
+            color: #2e3436;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        ul li{
+            margin-bottom: 10px;
+        }
+        ol li{
+            margin-bottom: 10px;
+        }
+        span#paper-header{
+            font-size: 1.17em;
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        span#notes-header{
+            font-size: 1.0em;
+            font-family: Noto Sans;
+            font-weight: 700;
+        }
+        div#problem-box {
+            background-color: #ffffff;
+            border: 2px solid #800000;
+            padding: 15px 15px 15px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        div#box {
+        }
+        div#header, div#menu, div#content, div#footer {
+            padding: 1em;
+        }
+        div#menu {
+            background-color: #dddddd;
+            padding: 0.6em 0 0.6em 0;
+        }
+        #menu span {
+            font-weight: bold;
+            padding: 0.6em;
+        }
+        #menu span.current {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+        #menu a {
+            color: #000000;
+            text-decoration: none;
+        }
+        #menu span:hover {
+            background-color: #eeeeee;
+        }
+        div#footer {
+            color: gray;
+            text-align: center;
+            font-size: small;
+        }
+        div#footer a {
+            color: gray;
+            text-decoration: none;
+        }
+        pre {
+            border: dotted black 1px;
+            background: #eeeeec;
+            font-size: small;
+            padding: 1em;
+        }
+        a:hover{
+            text-shadow: 0px 0px 4px rgba(0,0,255,0.1)
+        }
+        a:visited:hover{
+            text-shadow: 0px 0px 4px rgba(128,0,128,0.1)
+        }
+        a.hash-link {
+            padding-left: 7px;
+        }
+        a.hash-link:link,
+        a.hash-link:visited {
+            opacity: 10%;
+        }
+        a.hash-link:hover,
+        a.hash-link:active {
+            opacity: 100%;
+            text-decoration: none;
+        }
+        details > summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        details > summary:hover {
+            text-shadow: 0px 0px 4px rgba(0,0,0,0.1)
+        }
+        [open]::details-content{
+            border: 1.5px solid #800000;
+            padding: 12px 12px 12px 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    <div id="header">
+         <h1>Pitchayut Saengrungkongka</h1>
+    </div>
+    <div id="menu">
+    <span class=""><a href="/index.html">Home</a></span>
+<span class=""><a href="/research.html">Research</a></span>
+<span class=""><a href="/problems.html">Problems</a></span>
+<span class="current"><a href="/notes.html">Notes</a></span>
+    </div>
+    <div id="content"><h1><a id="notes_and_talks"></a>Notes and Talks<a href="#notes_and_talks" class="hash-link"><i class="fa fa-link"></i></a></h1>
+<h2><a id="course_notes"></a>Course notes<a href="#course_notes" class="hash-link"><i class="fa fa-link"></i></a></h2>
+<p>These are more polished versions of the notes that I live-TeXed when I took the corresponding courses at MIT. 
+There will inevitably be errors, which are due to me and not the course instructor.
+Problems that appear in these notes do not correspond to problem sets used in the actual class. Rather, they are problems that I collected from various sources.</p>
+<ul>
+<li><a id="commutative_algebra"></a><span id=notes-header>Commutative Algebra<a href="#commutative_algebra" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/commalg.pdf">pdf</a>)
+<br>
+Covers standard topics in commutative ring theory that is widely 
+used in algebraic number theory or algebraic geometry.
+Based on 18.705 in Fall 2023 taught by Prof. Davesh Maulik.</li>
+<li><a id="algebraic_topology_i"></a><span id=notes-header>Algebraic Topology I<a href="#algebraic_topology_i" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (Coming Soon!)
+<br>
+Covers singular homology, cohomology, and Poincaré Duality.
+Based on 18.905 in Fall 2024 taught by Prof. Jeremy Hahn.</li>
+</ul>
+<h2><a id="expository_papers_and_notes"></a>Expository papers and notes<a href="#expository_papers_and_notes" class="hash-link"><i class="fa fa-link"></i></a></h2>
+<ul>
+<li><a id="primality_testing_in_polynomial_time"></a><span id=notes-header>Primality Testing in Polynomial Time<a href="#primality_testing_in_polynomial_time" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/aks_talk.pdf">pdf</a>)
+<br>
+Introduces the AKS primality testing (an algorithm to determine if a given positive integer is prime in polynomial time) and covers most of its proof. Written in preparation for the talk given at HMMT November 2025 Education.</li>
+<li><a id="cayley's_tree_formula"></a><span id=notes-header>Cayley's Tree Formula<a href="#cayley's_tree_formula" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/cayley.pdf">pdf</a>)
+<br>
+Proves Cayley's tree formula (that there are \(n^{n-2}\)
+spanning trees on vertices \(1,2,\dots,n\)) via generating function 
+and Lagrange Inversion Formula. 
+Provides an introduction to complex analysis and residue theorem.
+Written in preparation for a lecture of MIT 18.A34 (Putnam Seminar) 
+in Fall 2025.</li>
+<li><a id="introduction_to_khovanov_homology"></a><span id=notes-header>Introduction to Khovanov Homology<a href="#introduction_to_khovanov_homology" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/khovanov.pdf">pdf</a>)
+<br>
+Introduces Khovanov homology, a knot invariant obtained by replacing Jones polynomial with appropriate chain complexes. This was written as a final paper in 18.904 (Seminar in Topology) Spring 2025 at MIT, taught by Dr. Jonathan Zung.</li>
+<li><a id="power_reciprocity_law"></a><span id=notes-header>Power Reciprocity Law<a href="#power_reciprocity_law" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/gauss_sum.pdf">pdf</a>)
+<br>
+Proves quadratic reciprocity using Gauss sums, discusses the generalization 
+to higher power reciprocity law, 
+and provides a light introduction to class field theory. 
+Written in preparation for the talk given at MOP 2024 Seminar in June 2024.</li>
+<li><a id="desargues_involution_theorem"></a><span id=notes-header>Desargues Involution Theorem<a href="#desargues_involution_theorem" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/ddit.pdf">pdf</a>)
+(<a href="https://artofproblemsolving.com/community/c6h1509866p8957048">AoPS</a>)
+<br>
+First written in 2017 and updated in 2020,
+it is the first ever handout that introduces the Desargues' Involution Theorem
+and its uses in Olympiad geometry. The pdf file is the same as the AoPS
+version, except that it is compiled with the new formatting.</li>
+</ul>
+<h2><a id="other_presentations"></a>Other Presentations<a href="#other_presentations" class="hash-link"><i class="fa fa-link"></i></a></h2>
+<ul>
+<li><a id="secrets_of_elliptic_curves"></a><span id=notes-header>Secrets of Elliptic Curves<a href="#secrets_of_elliptic_curves" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp; (<a href="/static/notes/elliptic_curves_talk.pdf">slides</a>)
+<br>
+Slides accompanying a 10-minute presentation given at 
+the MIT Math Department Reception during the parents weekend 
+in Fall 2025. Intended for general scientific audience.</li>
+</ul></div>
+    </div>
+    <div id="footer">
+        Pitchayut Saengrungkongka
+        &middot;
+        psaeng [at] mit [dot] edu
+    </div>
+</body>
+</html>
