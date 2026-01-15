@@ -7,6 +7,13 @@ Here is a selection of my creations.
 
 ## Olympiad
 
+### USA TST 2026 Problem 6
+<div id=problem-box>
+A positive integer is called <i>chaotic</i> if it can be expressed as \(a^3+b^3+abc\) for positive integers \(a\geq b\geq c\). Show that there is no infinite increasing arithmetic progression consisting of only chaotic positive integers.
+</div>
+([AoPS](https://artofproblemsolving.com/community/c6h3750494p36924029))
+([Official Sol](https://github.com/usa-tst-public/USA-TST-Archive/blob/main/IMOTST2026Solutions.pdf))
+
 ### IMO Shortlist 2024 A4
 <div id=problem-box>
 Let \(\mathbb{Z}_{>0}\) be the set of all positive integers. Determine all subsets \(\mathcal{S}\) of \(\{2^{0},2^{1},2^{2},\ldots\}\) for which there exists a function \(f\colon\mathbb{Z}_{>0}\to\mathbb{Z}_{>0}\) such that
