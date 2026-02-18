@@ -105,13 +105,6 @@ A line intersects the graph of $y=x^2+\frac 2x$ at three distinct points. Given 
 </div>
 ([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/algnt/solutions.pdf))
 
-### HMMT February 2026 Alg/NT 5
-<div id=problem-box>
-Compute the largest positive integer $n$ such that 
-\[n \text{ divides } (\lfloor\sqrt n\rfloor)!^{n!} + 450.\]
-</div>
-([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/algnt/solutions.pdf))
-
 ### HMMT February 2026 Geo 8
 <div id=problem-box>
 Let $ABC$ be a triangle with orthocenter $H$. The internal angle bisector of $\angle BAC$ meets the circumcircles of triangles $ABH$, $ACH$, and $ABC$ again at points $P$, $Q$, and $M$, respectively. Suppose that points $A$, $P$, $Q$, and $M$ are distinct and lie on the internal angle bisector of $\angle BAC$ in that order. Given that $AP=4$, $AQ=5$, and $BC=7$, compute $AM$.
