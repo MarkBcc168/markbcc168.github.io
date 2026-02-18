@@ -99,6 +99,50 @@ I'm involved in HMMT as a **Problem Staff** (2022-23),
 and **Historian** (2025-26).
 Below are some of my favorite problems that made into the contest.
 
+### HMMT February 2026 Alg/NT 1
+<div id=problem-box>
+A line intersects the graph of $y=x^2+\frac 2x$ at three distinct points. Given that the $x$-coordinates of two of the points are $6$ and $7$, respectively, compute the $x$-coordinate of the third point.
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/algnt/solutions.pdf))
+
+### HMMT February 2026 Alg/NT 5
+<div id=problem-box>
+Compute the largest positive integer $n$ such that 
+\[n \text{ divides } (\lfloor\sqrt n\rfloor)!^{n!} + 450.\]
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/algnt/solutions.pdf))
+
+### HMMT February 2026 Geo 8
+<div id=problem-box>
+Let $ABC$ be a triangle with orthocenter $H$. The internal angle bisector of $\angle BAC$ meets the circumcircles of triangles $ABH$, $ACH$, and $ABC$ again at points $P$, $Q$, and $M$, respectively. Suppose that points $A$, $P$, $Q$, and $M$ are distinct and lie on the internal angle bisector of $\angle BAC$ in that order. Given that $AP=4$, $AQ=5$, and $BC=7$, compute $AM$.
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/geo/solutions.pdf))
+
+### HMMT February 2026 Team 10
+<div id=problem-box>
+Prove that there exists a real constant $M$ such that for every prime $p\geq M$ and any positive integer $2\leq m\leq p-1$, there exist positive integers $a$ and $b$ such that $m \leq a \leq 1.01m$, $p^{0.99} \leq b \leq p$, and $p$ divides $ab-1$.
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/team/solutions.pdf))
+
+### HMMT February 2026 Guts 27
+<div id=problem-box>
+Let $a$, $b$, and $c$ be positive real numbers such that 
+\begin{align*}
+\sqrt{ab+1}+\sqrt{ca+1} &= 2a, \\
+\sqrt{bc+1}+\sqrt{ab+1} &= 3b, \\
+\sqrt{ca+1}+\sqrt{bc+1} &= 5c.
+\end{align*}
+Compute $a$.
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/guts/solutions.pdf))
+
+
+### HMMT February 2026 Guts 30
+<div id=problem-box>
+Let $ABC$ be a triangle with $AB=60$, $AC=67$, and $BC=69$. The incircle $\omega$ of triangle $ABC$ touches sides $\overline{BC}$, $\overline{CA}$, and $\overline{AB}$ at $D$, $E$, and $F$, respectively. Let $D'$ be the point diametrically opposite to $D$ in $\omega$. Let the common chord of the circumcircles of triangles $BD'F$ and $CD'E$ meet line $BC$ at $X$. Compute $BX$.
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/feb/guts/solutions.pdf))
+
 ### HMMT November 2025 General 9
 *(with Qiao Zhang)*
 <div id=problem-box>
