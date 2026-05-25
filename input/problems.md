@@ -94,10 +94,22 @@ there exists an integer \(a_n\) such that \(P(a_n)=n^n\) for all positive intege
 ([AoPS](https://artofproblemsolving.com/community/c6h3610378p35339960))
 
 ## HMMT
-I'm involved in HMMT as a **Problem Staff** (2022-23),
+During my undergraduate years, 
+I was actively involved in HMMT as a **Problem Staff** (2022-23),
 **Problem Czar** (2023-24), **Problem Czar Advisor** (2024-25),
 and **Historian** (2025-26).
-Below are some of my favorite problems that made into the contest.
+Over four years, <b>113</b> of my problems were accepted into contest.
+Below are some of my favorite problems.
+
+### HMIC 2026 P5
+<div id=problem-box>
+Let $n$ be a positive integer. Determine, in terms of $n$, the number of ordered $n$-tuples $(a_1,a_2,\dots,a_n)$ of real numbers such that 
+<ul>
+<li> $0\leq a_i < 1$ for all $1\leq i\leq n$, and
+<li> $a_1\cdot 1^k + a_2\cdot 2^k + \dots + a_n\cdot n^k$ is an integer for all nonnegative integers $k$. 
+</ul>
+</div>
+([Official Sol](https://hmmt-archive.s3.amazonaws.com/tournaments/2026/hmic/solutions.pdf))
 
 ### HMMT February 2026 Alg/NT 1
 <div id=problem-box>
