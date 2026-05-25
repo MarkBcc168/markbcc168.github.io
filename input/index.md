@@ -6,8 +6,8 @@ menu-position: 0
 <div style="display: flex;">
   <div style="width: 70%;">
   I'm Pitchayut (Mark) Saengrungkongka. 
-I will be a Mathematics Ph.D. student at Harvard University next Fall.
-I received undergraduate degree from MIT.
+I will be a Mathematics Ph.D. student at Harvard University starting in Fall 2026.
+I received undergraduate degree from MIT in 2026.
 <br><br>
 I'm interested in pursuing math research in Number Theory and/or Combinatorics.
 <br><br>
