@@ -8,7 +8,6 @@ Click on each title to view the abstract.
 
 Last updated: **{{last_updated("input/research.md")}}**.
 
-<hr>
 {{paper("Extremal $t$-intersecting Families of Permutations for Large $t$", 
     [], 
     {"arXiv": "https://arxiv.org/abs/2605.26051",

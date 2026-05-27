@@ -30,7 +30,7 @@ def hl(text: str) -> str:
 def paper(text: str, coauthors: list[str]=[], links: dict[str, str] = {}, summary: str="",
           abstract: str="") -> str:
     link = link_from_text(text)
-    result = '<details><summary>'
+    result = '<details id="paper-header"><summary>'
     result += '<div style="display: flex;">'
     result += '<div style="flex-grow: 1;">'
     result += f'<a id="{link}"></a><span id=paper-header>{text}<a href="#{link}" class="hash-link"><i class="fa fa-link"></i></a></span>'
@@ -54,13 +54,43 @@ def paper(text: str, coauthors: list[str]=[], links: dict[str, str] = {}, summar
     result += '</div>'
     result += '</summary>'
     result += summary
-    result += "<p><b>Abstract</b><br>"
-    result += abstract + "</p>"
+    if(abstract != ""):
+        result += "<p><b>Abstract</b><br>"
+        result += abstract + "</p>"
     result += "<p>" + " ".join(f'(<a href={link}>{text}</a>)' for text, link in links.items()) + "</p>"
-    result += '</details> <hr>'
+    result += '</details>'
     return result
 
-def notes(text: str) -> str:
+def notes(text: str, coauthors: list[str]=[], links: dict[str, str] = {}, summary: str="") -> str:
     link = link_from_text(text)
-    result = f'<a id="{link}"></a><span id=notes-header>{text}<a href="#{link}" class="hash-link"><i class="fa fa-link"></i></a></span>&nbsp;&nbsp;'
+    result = '<details id="notes-header"><summary>'
+    result += '<div style="display: flex;">'
+    result += '<div style="flex-grow: 1;">'
+    result += f'<a id="{link}"></a><span id=paper-header>{text}<a href="#{link}" class="hash-link"><i class="fa fa-link"></i></a></span>'
+    if(len(coauthors) > 0):
+        coauthors_str = ""
+        for i in range(len(coauthors)-1):
+            coauthors_str += coauthors[i] + ", "
+        if(len(coauthors) > 1):
+            coauthors_str += " and "
+        coauthors_str += coauthors[-1]
+        result += "<br>" + f"(with {coauthors_str})"
+    result += "</div>"
+    if("arXiv" in links):
+        result += '<div style="width: fit-content; align-content:center;">'
+        result += f'(<a href={links["arXiv"]}>arXiv</a>)'
+        result += '</div>'
+    elif("pdf" in links):
+        result += '<div style="width: fit-content; align-content:center;">'
+        result += f'(<a href={links["pdf"]}>pdf</a>)'
+        result += '</div>'
+    elif("slides" in links):
+        result += '<div style="width: fit-content; align-content:center;">'
+        result += f'(<a href={links["slides"]}>slides</a>)'
+        result += '</div>'
+    result += '</div>'
+    result += '</summary>'
+    result += summary
+    result += "<p>" + " ".join(f'(<a href={link}>{text}</a>)' for text, link in links.items()) + "</p>"
+    result += '</details>'
     return result
