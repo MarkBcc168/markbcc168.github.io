@@ -21,7 +21,7 @@ Here are some of my shorter expository papers or notes.
 
 {{notes("Rational Points on Curves", [],
     {"pdf" : "static/notes/faltings.pdf"},
-    "Introduces the reader to some of the main idea of the three proofs of Faltings' Theorem and explains its conditional algorithmic version given by <a href=https://arxiv.org/abs/2408.11653>Alpöge and Lawrence's preprint</a>. Written as a final paper in Harvard Math 282Z in Spring 2026, taught by Dr. Max Weinreich."
+    "Introduces the reader to some of the main ideas of the proofs of Faltings' Theorem and explains its conditional algorithmic version given by <a href=https://arxiv.org/abs/2408.11653>Alpöge and Lawrence's preprint</a>. Written as a final paper in Harvard Math 282Z in Spring 2026, taught by Dr. Max Weinreich."
 )}}
 
 {{notes("Primality Testing in Polynomial Time", [],
@@ -36,7 +36,7 @@ Here are some of my shorter expository papers or notes.
 
 {{notes("Introduction to Khovanov Homology", [],
     {"pdf" : "static/notes/khovanov.pdf"},
-    "Introduces Khovanov homology, a knot invariant obtained by replacing Jones polynomial with appropriate chain complexes. This was written as a final paper in 18.904 (Seminar in Topology) Spring 2025 at MIT, taught by Dr. Jonathan Zung."
+    "Introduces Khovanov homology, a knot invariant obtained by replacing Jones polynomial with appropriate chain complexes. Written as a final paper in 18.904 (Seminar in Topology) Spring 2025 at MIT, taught by Dr. Jonathan Zung."
 )}}
 
 {{notes("Power Reciprocity Law", [],
@@ -63,6 +63,6 @@ Here are notes or slides from my other presentations. Talks directly related to 
 
 {{notes("Examples of Descent", [], 
     {"pdf" : "static/notes/intro_descent_stage.pdf"},
-    "Notes accompanying the March 5, 2026 talk for <a href=https://math.mit.edu/nt/stage.html>MIT STAGE Seminar</a>. It cover examples of descent obstruction and weak Mordell-Weil theorem."
+    "Notes accompanying the March 5, 2026 talk for <a href=https://math.mit.edu/nt/stage.html>MIT STAGE Seminar</a>. It covers examples of descent obstruction and weak Mordell-Weil theorem."
 )}}
 
