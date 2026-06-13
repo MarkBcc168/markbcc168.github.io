@@ -151,6 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         text = elem.innerHTML;
         elem.innerHTML = "<b>Abstract</b><br>" + text;
     }
+
     //setup animation
     document.querySelectorAll('details').forEach((el) => {
         new Accordion(el);

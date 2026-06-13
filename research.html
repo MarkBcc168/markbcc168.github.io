@@ -9,17 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="macros.js"></script>
-    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
       let titleElements = [...document.querySelectorAll("div.paper-title")];
       console.log(titleElements);
       for(let i=0; i<titleElements.length; i+=1){
         let text = titleElements[i].innerHTML;
-        titleElements[i].innerHTML = String(titleElements.length-i) + ". " + text;
+        titleElements[i].innerHTML = text.replace("</a>", "</a>" + String(titleElements.length-i) + ". ");
+        for(let linkElements of titleElements[i].querySelectorAll("a")){
+          linkElements.addEventListener('click', (e) => e.stopPropagation());
+        }
       }
     });
     </script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <div class="box">
