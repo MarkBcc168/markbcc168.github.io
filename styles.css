@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('/static/fonts/LinLibertine_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* italic */
+    src: url('/static/fonts/LinLibertine_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('/static/fonts/LinLibertine_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('/static/fonts/LinLibertine_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    font-family: Linux Libertine;
+    max-width: 800px;
+    margin: 1em auto;
+    color: #2e3436;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Noto Sans;
+    font-weight: 700;
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+button{
+    font-family: Linux Libertine;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(192,192,192);
+}
+button:hover{
+    font-family: Linux Libertine;
+    background-color: rgb(0,0,0,0.1);
+}
+
+
+@counter-style paren-decimal {
+  system: extends decimal;
+  prefix: "(";
+  suffix: ") ";
+}
+@counter-style paren-lower-alpha {
+  system: extends lower-alpha;
+  prefix: "(";
+  suffix: ") ";
+}
+ol {
+  list-style: paren-decimal;
+}
+ol[type="a"] {
+  list-style: paren-lower-alpha;
+}
+
+div.header, div.menu, div.content, div.footer {
+    padding: 1em;
+}
+div.box{
+    background-color: #ffffff;
+}
+div.header{
+    padding: 0.1em 0.6em;
+    margin-bottom: 0em;
+}
+div.menu {
+    background-color: #dddddd;
+    margin-top: 0em;
+    padding: 0.6em 0 0.6em 0;
+}
+.menu span {
+    font-weight: bold;
+    padding: 0.6em;
+}
+.menu span.current {
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+}
+.menu a {
+    color: #000000;
+    text-decoration: none;
+}
+.menu span:hover {
+    background-color: #e8e8e8;
+}
+div.footer {
+    color: gray;
+    text-align: center;
+    font-size: small;
+}
+div.footer a {
+    color: gray;
+    text-decoration: none;
+}
+pre {
+    border: dotted black 1px;
+    background: #eeeeec;
+    font-size: small;
+    padding: 1em;
+}
+a:hover{
+    text-shadow: 0px 0px 4px rgba(0,0,255,0.1)
+}
+a:visited:hover{
+    text-shadow: 0px 0px 4px rgba(128,0,128,0.1)
+}
+a.hash-link {
+    padding-left: 7px;
+}
+a.hash-link:link, a.hash-link:visited {
+    opacity: 10%;
+}
+a.hash-link:hover, a.hash-link:active {
+    opacity: 100%;
+    text-decoration: none;
+}
+
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+details{
+    position: relative;
+}
+details summary{
+    padding: 6px 0;
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+details + details > summary{
+    border-top: none;
+}
+details > summary:hover {
+    background-color: rgb(0,0,0,0.1);
+} 
+[open]::details-content{
+    border: 1.5px solid #a00000;
+    padding: 12px 12px 12px 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+div.paper-table{
+    display: flex;
+}
+div.paper-header{
+    flex-grow: 1;
+}
+div.paper-title{
+    font-size: 1em;
+    font-family: Noto Sans;
+    font-weight: 700;
+    flex-grow: 1;
+}
+div.paper-link{
+    width: fit-content; 
+    align-content:center;
+}
+div.problem-box {
+    background-color: #ffffff;
+    border: 2px solid #a00000;
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+details#paper-header > summary {
+    padding: 10px 0;
+}
+details#paper-header > summary:hover {
+    background-color: rgb(0,0,0,0.1);
+}  
+div.details-content > p{
+    margin-top: 0em;
+}
+div.details-content p:last-child{
+    margin-bottom: 0em;
+}

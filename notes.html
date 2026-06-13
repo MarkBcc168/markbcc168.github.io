@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>Pitchayut - Notes</title>
+    <meta name="description" content="Pitchayut Saengrungkongka's notes and expository articles" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="macros.js"></script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="header">
+        <h1 id="no-hash">Pitchayut Saengrungkongka</h1>
+      </div>
+      <div class="menu">
+        <span class=""><a href="/index.html">Home</a></span>
+        <span class=""><a href="/research.html">Research</a></span>
+        <span class=""><a href="/problems.html">Problems</a></span>
+        <span class="current"><a href="/notes.html">Notes</a></span>
+      </div>
+      <div class="content">
+        <h1>Notes and Talks</h1>
+        <p><button onclick="expand_all(true)">Expand all</button>
+          <button onclick="expand_all(false)">Collapse all</button>
+        </p>
+        <h2>Course notes</h2>
+        <p>These are more polished versions of the notes that I live-TeXed when I took the corresponding courses at MIT. 
+          There will inevitably be errors, which are due to me and not the course instructor.
+          Problems that appear in these notes do not correspond to problem sets used in the actual class. Rather, they are problems that I collected from various sources.
+        </p>
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Commutative Algebra</div>
+              <div class="paper-link">(<a href=static/notes/commalg.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Covers standard topics in commutative ring theory that is widely used in algebraic number theory or algebraic geometry. Based on 18.705 in Fall 2023 taught by Prof. Davesh Maulik.</p>
+          <p>(<a href=static/notes/commalg.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <h2>Expository papers and notes</h2>
+        <p>Here are some of my shorter expository papers or notes.</p>
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Rational Points on Curves</div>
+              <div class="paper-link">(<a href=static/notes/faltings.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Introduces the reader to some of the main ideas of the proofs of Faltings' Theorem and explains its conditional algorithmic version given by <a href=https://arxiv.org/abs/2408.11653>Alpöge and Lawrence's preprint</a>. Written as a final paper in Harvard Math 282Z in Spring 2026, taught by Dr. Max Weinreich.</p>
+          <p>(<a href=static/notes/faltings.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Primality Testing in Polynomial Time</div>
+              <div class="paper-link">(<a href=static/notes/aks_talk.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Introduces the AKS primality testing (an algorithm to determine if a given positive integer is prime in polynomial time) and covers most of its proof. Written in preparation for the talk given at HMMT November 2025 Education.</p>
+          <p>(<a href=static/notes/aks_talk.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Cayley's Tree Formula</div>
+              <div class="paper-link">(<a href=static/notes/cayley.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Proves Cayley's tree formula (that there are \(n^{n-2}\) spanning trees on vertices \(1,2,\dots,n\)) via generating function and Lagrange Inversion Formula. Provides an introduction to complex analysis and residue theorem. Written in preparation for a lecture of MIT 18.A34 (Putnam Seminar) in Fall 2025.</p>
+          <p>(<a href=static/notes/cayley.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Introduction to Khovanov Homology</div>
+              <div class="paper-link">(<a href=static/notes/khovanov.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Introduces Khovanov homology, a knot invariant obtained by replacing Jones polynomial with appropriate chain complexes. Written as a final paper in 18.904 (Seminar in Topology) Spring 2025 at MIT, taught by Dr. Jonathan Zung.</p>
+          <p>(<a href=static/notes/khovanov.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Power Reciprocity Law</div>
+              <div class="paper-link">(<a href=static/notes/gauss_sum.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Proves quadratic reciprocity using Gauss sums, discusses the generalization to higher power reciprocity law, and provides a light introduction to class field theory. Written in preparation for the talk given at MOP 2024 Seminar in June 2024.</p>
+          <p>(<a href=static/notes/gauss_sum.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Desargues Involution Theorem</div>
+              <div class="paper-link">(<a href=static/notes/ddit.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>First written in 2017 and updated in 2020, it is the first ever handout that introduces the Desargues' Involution Theorem and its uses in Olympiad geometry. The pdf file is the same as the AoPS version, except that it is compiled with the new formatting.</p>
+          <p>(<a href=static/notes/ddit.pdf>pdf</a>) (<a href=https://artofproblemsolving.com/community/c6h1509866p8957048>AoPS</a>)</p>
+        </div>
+        </details>       
+        <h2>Other Presentations</h2>
+        <p>Here are notes or slides from my other presentations. Talks directly related to my papers are linked at <a href="/research.html">my research page</a>.</p>
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Secrets of Elliptic Curves</div>
+              <div class="paper-link">(<a href=static/notes/elliptic_curves_talk.pdf>slides</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Slides accompanying a 10-minute presentation given at the MIT Math Department Reception during the parents weekend in Fall 2025. Intended for general scientific audience.</p>
+          <p>(<a href=static/notes/elliptic_curves_talk.pdf>slides</a>)</p>
+        </div>
+        </details>       
+        <details id="notes-header">
+          <summary>
+              <div class="paper-title">Examples of Descent</div>
+              <div class="paper-link">(<a href=static/notes/intro_descent_stage.pdf>pdf</a>)</div>
+          </summary>
+          <div class="details-content">
+          <p>Notes accompanying the March 5, 2026 talk for <a href=https://math.mit.edu/nt/stage.html>MIT STAGE Seminar</a>. It covers examples of descent obstruction and weak Mordell-Weil theorem.</p>
+          <p>(<a href=static/notes/intro_descent_stage.pdf>pdf</a>)</p>
+        </div>
+        </details>       
+      </div>
+    </div>
+  </body>
+</html>
